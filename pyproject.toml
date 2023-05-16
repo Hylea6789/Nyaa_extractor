@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nyaa-extractor-v4"
+version = "0.1.0"
+description = ""
+authors = ["Hylea6789 <72920934+Hylea6789@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "nyaa_extractor_v4"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+django = "^4.2.1"
+nyaapy = "^0.6.3"
+lxml = "^4.9.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
